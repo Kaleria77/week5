@@ -3,98 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flex</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      body {
-        background-color: rgb(173, 169, 209);
-      }
-      .header {
-        width: 100%;
-        height: 20vh;
-      }
-      .wrap {
-        height: 15vh;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px 5vw;
-      }
-      .logo {
-        height: 100%;
-      }
-      .logo img {
-        height: 100%;
-      }
-      .nav {
-        flex-basis: 25%;
-        display: flex;
-        justify-content: space-between;
-      }
-      .link {
-        text-decoration: none;
-        font-family: "Courier New", Courier, monospace;
-        font-size: 20px;
-        text-transform: uppercase;
-        color: rgb(10, 35, 54);
-      }
-      .link:hover {
-        text-decoration: underline;
-        color: rgb(3, 1, 6);
-      }
-      .link:active {
-        color: rgb(157, 19, 19);
-      }
-      h1 {
-        text-align: center;
-        font-family: "Courier New", Courier, monospace;
-        font-size: 30px;
-        text-transform: uppercase;
-        color: rgb(10, 35, 54);
-      }
-      .box {
-        padding: 5vh 5vw;
-        height: 50vh;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-      .box img {
-        height: 70%;
-        border-radius: 20px;
-        border: 4px solid transparent;
-        box-shadow: 21px 16px 15px -1px rgba(34, 60, 80, 0.18);
-      }
-      .box img:hover {
-        border: 0px;
-        box-shadow: 21px 16px 15px -1px rgba(34, 60, 80, 0.5);
-      }
-    </style>
+    <link rel="stylesheet" href="../normalise.css" />
+    <link rel="stylesheet" href="slyles5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="assets/cat_2173478.png">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>Фотогалерея</title>
+
   </head>
   <body>
     <header class="header">
-      <div class="wrap">
         <div class="logo">
-          <img src="./assets/cat.png" alt="icon" />
+          <img src="./assets/confused.png" alt="icon" />
+        </div>
+        <div class="h1">
+          <h1>Фотогалерея с котиками</h1>
         </div>
         <nav class="nav">
           <a class="link" href="./homework5.html">О нас</a>
           <a class="link" href="./homework5.html">Галерея</a>
           <a class="link" href="./homework5.html">Контакты</a>
         </nav>
-      </div>
-      <h1 class="title">Фотогалерея</h1>
     </header>
     <main class="main">
-      <div class="box">
-        <img src="./assets/proxy-image.jfif" alt="cat" />
-        <img src="./assets/proxy-image.jfif" alt="cat" />
-        <img src="./assets/proxy-image.jfif" alt="cat" />
-        <img src="./assets/proxy-image.jfif" alt="cat" />
+      <div class="box_1">
+        <img src="./assets/,hb,khfbkd.webp" alt="cat" />
+        <img src="./assets/hghff.webp" alt="cat" />
+        <img src="./assets/kjvflkjdf.webp" alt="cat" />
+        <img src="./assets/1661254729_j-87.jpg" alt="cat" />
+      </div>
+      <div class="box_2">
+        <img src="./assets/1640215566_6-koshka-top-p-koshki-i-kotik-7.jpg" alt="cat" />
+        <img src="./assets/1640215586_11-koshka-top-p-koshki-i-kotik-12.jpg" alt="cat" />
+        <img src="./assets/87b56a0b-91de-489b-9562-8f0bc4279bf3.jpg" alt="cat" />
       </div>
     </main>
   </body>
